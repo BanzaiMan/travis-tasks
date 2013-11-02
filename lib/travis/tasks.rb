@@ -13,8 +13,6 @@ Sidekiq.configure_server do |config|
   config.logger = nil unless Travis.config.log_level == :debug
 end
 
-Travis.config.update_periodically
-
 Travis::Exceptions::Reporter.start
 Travis::Metrics.setup
 Travis::Notification.setup
