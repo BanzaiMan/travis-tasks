@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '1.9.3', engine: 'jruby', engine_version: '1.7.4'
 
-gem 'travis-core',     github: 'travis-ci/travis-core'
+gem 'travis-core',     github: 'travis-ci/travis-core', branch: 'ha-feature-hipchat_api_v2'
 gem 'travis-support',  github: 'travis-ci/travis-support'
 gem 'travis-sidekiqs', github: 'travis-ci/travis-sidekiqs', require: nil
 

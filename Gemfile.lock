@@ -28,7 +28,8 @@ GIT
 
 GIT
   remote: git://github.com/travis-ci/travis-core.git
-  revision: ff40feaff02277646e1ec9dbeb5e8cfad5e531a8
+  revision: 714043845654f624c9391bd7dbb8b8a1746c77ae
+  branch: ha-feature-hipchat_api_v2
   specs:
     travis-core (0.0.1)
       actionmailer (~> 3.2.12)
@@ -156,7 +157,6 @@ GEM
     net-http-persistent (2.9.1)
     net-http-pipeline (1.0.1)
     newrelic_rpm (3.3.5)
-    nokogiri (1.5.10)
     nokogiri (1.5.10-java)
     polyglot (0.3.3)
     proxies (0.2.1)
