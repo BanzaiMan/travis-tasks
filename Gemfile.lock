@@ -28,7 +28,7 @@ GIT
 
 GIT
   remote: git://github.com/travis-ci/travis-core.git
-  revision: 714043845654f624c9391bd7dbb8b8a1746c77ae
+  revision: 1df8428986eea77471ad66850f1f6c33189e8b62
   branch: ha-feature-hipchat_api_v2
   specs:
     travis-core (0.0.1)
